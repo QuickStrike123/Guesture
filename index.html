@@ -1,0 +1,117 @@
+<html>
+
+<head>
+
+  <title>Guesture To Emoji</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <center>
+
+      <h3 class="btn btn-info heading">
+
+        Guesture To Emoji
+
+        <br>
+
+        <span>&#9994;</span>
+
+        <span>&#128070;</span>
+
+        <span>&#129304;</span>
+
+        <span>&#128076;</span>
+
+        <span>&#128077;</span>
+
+      </h3>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Take a selfie of a jesture to know its meaning
+
+        <br>
+
+        <b style="font-size: 15px;">The model is trained for the following jestures</b>
+
+        <br>
+
+        &#9996;
+
+        <br>
+
+        &#128077;
+
+        <br>
+
+        &#128076;
+
+        <br>
+
+      </p>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+
+        <label>Camera - </label>
+
+        <br><br>
+
+        <div id="camera"></div>
+
+        <br>
+
+        <button onclick="TakeSnapshot()" id="Take_Snapshot">Take Snapshot</button>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+
+        <label> Prediction</label>
+
+        <p id="result_guesture_name"></p>
+
+        <p id="guesture"></p>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+
+        <label>Snapshot - </label>
+
+        <br><br>
+
+        <div id="result"></div>
+
+        <br>
+
+        <button onclick="Check()" id="Identify_Guesture">Identify Guesture</button>
+
+      </div>
+
+    </center>
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

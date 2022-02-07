@@ -1,0 +1,70 @@
+body {
+
+    background-image: linear-gradient(to top right, orchid, orange);
+
+}
+
+#camera,
+#result {
+
+    border: 2px dashed black;
+
+    width: 350px;
+
+    height: 300px;
+
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+
+    color: black;
+
+    font-size: 40px;
+
+}
+
+#guesture {
+
+    font-size: 48px;
+
+}
+
+.heading {
+
+    border-radius: 10px;
+
+    letter-spacing: 10px;
+
+    font-size: 20px;
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+#Take_Snapshot,
+#Identify_Guesture {
+
+    color: black;
+
+    background-color: white;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    font-size: 15px;
+
+}
+
+label {
+
+    color: black;
+
+    background-color: whitesmoke;
+
+    border-radius: 10px;
+
+    padding: 5px;
+
+}
